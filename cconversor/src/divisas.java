@@ -7,7 +7,7 @@ public class divisas extends datos{
 
     protected double valorEntrada, valorSalida;
     protected String convertirDe, convertirA;
-    protected double usdToMxn, mxnToUsd, arsToMxn, mxnToArs
+    protected double usdToMxn, mxnToUsd, arsToMxn, mxnToArs;
 
     public divisas(){
 
@@ -25,7 +25,11 @@ public class divisas extends datos{
 
     public void convertirDivisas(){
 
-
+        if (convertirDe == "s" && convertirA == "s") {
+            
+        } else if (convertirDe == "s" && convertirA == "s") {
+            
+        }
 
     }
 }
